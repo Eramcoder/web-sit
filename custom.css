@@ -1,0 +1,53 @@
+/* body {
+    background-image: url("../images/background.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+
+/* body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: inherit;
+    background-position: inherit;
+    background-size: inherit;
+    filter: blur(3px) brightness(75%);
+    z-index: -1;
+} */
+
+#background-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("../images/les2.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(3px) brightness(75%);
+    z-index: -1;
+}
+
+
+#myDescription {
+    text-shadow: 1px 2px 1.5px rgba(0, 0, 0, 0.5);
+}
+
+a {
+    text-decoration: none;
+}
+
+code {
+    background-color: #383231;
+    color: white;
+    padding: 2px 4px;
+    border-radius: 4px;
+    border-color: #4a4254;
+};

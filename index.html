@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <!-- Page Information
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Martin</title>
+  <meta name="description" content="A random website">
+  <meta name="author" content="excal.cc">
+
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+
+    <!-- Themes:
+            Auto:   css/skeleton-auto.css
+            Light:  css/skeleton-light.css
+            Dark:   css/skeleton-dark.css
+     -->
+    <link rel="stylesheet" href="css/skeleton-dark.css">
+
+    <!-- Brand Styles -->
+    <link rel="stylesheet" href="css/brands.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/custom.css">
+
+    <!-- Animations -->
+    <link rel="stylesheet" href="css/animations.css">
+
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/avatar.jpg">
+
+</head>
+
+<body>
+
+  <!-- Container for background
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div id="background-container"></div>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div class="container">
+    <div class="row">
+      <div class="column" style="margin-top: 10%">
+
+        <!-- 
+
+          ## Getting Started with LittleLink
+
+          This page has been built with every pre-designed button available in LittleLink by default. You can rearrange and delete as needed.
+
+          You can add your own brand or others brands you may need in the `css/brands.css` file. 
+
+          You can add custom icons to `images/icons/...`. It is recommended to use a 24x24 .SVG.
+
+          Edit the "Your Image Here" section to add your own personal branding, like a picture of yourself or your brand logo!
+
+          Edit the "Title" section to change the page heading. You can use something like your name, your social handle, or your brand name.
+
+          Edit the "Short Bio" section tell users about yourself or your brand.
+
+        -->
+
+        <!-- Your Image Here -->
+        <img src="images/avatar.jpg" class="avatar" srcset="images/avatar.jpg 2x" alt="">
+
+        <!-- Title -->
+        <h1 role="heading">Martin</h1>
+
+        <!-- Short Bio -->
+        <p>
+          <h2 id="myDescription">💸 Донат: <a href="https://new.donatepay.ru/@excaloff">DonatePay</a>.</h2>
+          <h5 id="myDescription">(собираю на новый ПК для стримов)</h5>
+          <h4 id="myDescription">🤔 Учусь в колледже мечтаю стать стримером люблю делать сайты хотя не очень хорошо выходит(</h4>
+          <h4 id="myDescription">💫 ОС: Arch Linux(линукс фу виндовс кайф) + боюсь женщин</h4>
+          <p id="myDescription"><i></i> <code></code></p>
+        </p>
+
+        <!--
+
+          ## Breaking down <a> attributes:
+          
+          1.) class="button button-default" | The first "button" here is telling this <a> tag that it should make this element a button and applies the default styling in `css/brands.css`.
+          The second portion, button-default, is declaring the specific brand style you would like to apply. Here we're applying the "default" style and color.
+          If you want to make this button to use the brand colors for Discord, just change "button-default" to "button-discord". Brands are found in `css/brands.css`. You can always edit & add your own there.
+
+          2.) Replace the # in href="#" with the desired target URL for the button.
+
+          3.) target="_blank" | This attribute opens links in a new tab. Remove this attribute to prevent links from opening in a new tab.
+
+          4.) rel="noopener" | This attribute instructs the browser to navigate to the target resource without granting the new browsing context access to the document that opened it.
+          This is especially useful when opening untrusted links. https://developer.mozilla.org/en-US/docs/Web/HTML/Link_types/noopener
+
+          5.) role="button" | The button role identifies an element as a button to assistive technology such as screen readers.
+
+          ## Breaking down the <img> attributes:
+          
+          1.) class="icon" | This class is telling the <img> tag that it should use the styling for icons found in `css/brands.css`.
+
+          2.) src="images/icons/[icon-name].svg" | This defines the icon you would like to display from the 'images/icons/' folder. For example, you can change this to src="images/icons/discord.svg" to use the Discord icon.
+          Add your own 24x24 icons to the "icons" folder to reference them. We recommend providing a SVG.
+
+          3.) alt="" | Since the text at the end of the snippet, "..>[Button Text]</a><br>", explains what the button is, we use "alt=""" to nullify the icon annoucement from the accessibility tree. 
+          This can improve the experience for assistive technology users by hiding what is essentially duplicated
+
+        -->
+
+        <!-- Category 1 -->
+        <center><h2>Закреплённое</h2></center>
+        
+        <!-- Mastodon -->
+        <a class="button button-mastodon button-entrance button-hover" href="https://mastodon.ml/@exc" target="_blank" rel="noopener me" role="button"><img class="icon" src="images/icons/mastodon.svg" alt="">Mastodon</a><br>
+        
+        <!-- Matrix -->
+        <a class="button button-matrix button-entrance button-hover" href="https://matrix.to/#/@excalgm:tchncs.de" target="_blank" rel="noopener" role="button"><img class="icon" src="images/icons/matrix.svg" alt="">Matrix</a><br>     
+
+        <!-- Discord -->
+        <a class="button button-discord button-entrance button-hover" href="https://discord.gg/jz9prqMr" target="_blank" rel="noopener" role="button"><img class="icon" src="images/icons/discord.svg" alt="">Discord</a><br>
+
+        <br>
+        <!-- End of Category 1 -->
+        
+        <!-- Category 2-->
+        <center><h2>Социальное</h2></center>
+        
+        <!-- Codeberg -->
+        <a class="button button-codeberg button-entrance button-hover" href="https://codeberg.org/ae7er" target="_blank" rel="noopener" role="button"><img class="icon" src="images/icons/codeberg.svg" alt="">Codeberg</a><br>
+  
+        <!-- TikTok -->
+        <a class="button button-tiktok button-entrance button-hover" href="https://tiktok.com/@excalgm" target="_blank" rel="noopener" role="button"><img class="icon" src="images/icons/tiktok.svg" alt="">TikTok</a><br>
+        
+        <!-- Pixelfed -->
+        <a class="button button-pixelfed button-entrance button-hover" href="https://pixelfed.social/exc" target="_blank" rel="noopener" role="button"><img class="icon" src="images/icons/pixelfed.svg" alt="">Pixelfed (не читаю)</a><br>
+        
+        <!-- YouTube -->
+        <a class="button button-youtube button-entrance button-hover" href="https://youtube.com/@martin.viruss" target="_blank" rel="noopener" role="button"><img class="icon" src="images/icons/youtube.svg" alt="">YouTube</a><br>     
+
+        <br>
+        <!-- End of Category 2 -->
+
+        <!-- Category 3-->
+        <center><h2>Игры</h2></center>
+
+        <!-- Steam -->
+        <a class="button button-steam button-entrance button-hover" href="https://steamcommunity.com/id/martin089812" target="_blank" rel="noopener" role="button"><img class="icon" src="images/icons/steam.svg" alt="">Steam</a><br>
+
+        <!-- Tanki Online -->
+        <a class="button button-tankionline button-entrance button-hover" href="" target="_blank" rel="noopener" role="button"><img class="icon" src="images/icons/tankionline.svg" alt="">Tanki Online</a><br>
+
+        <!-- Minecraft -->
+        <a class="button button-minecraft button-entrance button-hover" href="" target="_blank" rel="noopener" role="button"><img class="icon" src="images/icons/minecraft.svg" alt="">Minecraft</a><br>
+
+        <br>
+        <!-- End of Category 3-->
+
+        <br><br> 
+        <!-- Generic Code -->
+        <a class="button button-default" href="https://codeberg.org/ae7er/website" target="_blank" rel="noopener" role="button"><img class="icon" src="images/icons/generic-code.svg" alt="">Исходный код сайта</a><br>
+
+        <br>
+        <!-- 
+            Footer:
+            This includes a link to privacy.html page which can be setup for your Privacy Policy.
+            This also includes a link to the LittleLink repository to make forking LittleLink easier.
+            You can edit or remove anything here to make your own footer.
+        -->
+        <p><a href="privacy.html">Политика конфиденциальности</a> | <a href="other.html">Другое</a><br>Сделано на <a href="https://littlelink.io" target="_blank" rel="noopener" role="button">LittleLink</a>.</p>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- End Document
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+</html>
